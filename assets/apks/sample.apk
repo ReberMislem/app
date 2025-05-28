@@ -1,0 +1,7 @@
+This is a sample APK file for testing purposes.
+Replace this file with your actual APK files.
+
+To add real APK files:
+1. Copy your .apk files to this directory
+2. Update the apps.json file with the correct filenames
+3. Make sure the downloadLink points to the correct path

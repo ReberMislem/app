@@ -1,0 +1,56 @@
+[
+  {
+    "id": "app1",
+    "title": "Productivity Pro",
+    "icon": "https://placehold.co/400x300/667eea/FFFFFF?text=Prod+Pro",
+    "description": "Boost your daily efficiency with this amazing productivity tool. Streamline workflows and achieve more.",
+    "downloadLink": "assets/apks/ProductivityPro.apk",
+    "fileName": "ProductivityPro.apk",
+    "category": "Productivity"
+  },
+  {
+    "id": "app2",
+    "title": "PhotoMagic Editor",
+    "icon": "https://placehold.co/400x300/764ba2/FFFFFF?text=PhotoMagic",
+    "description": "Edit your photos like a pro with intuitive tools, stunning filters, and easy sharing options.",
+    "downloadLink": "assets/apks/PhotoMagicEditor.apk",
+    "fileName": "PhotoMagicEditor.apk",
+    "category": "Photography"
+  },
+  {
+    "id": "app3",
+    "title": "GameVerse Explorer",
+    "icon": "https://placehold.co/400x300/38a169/FFFFFF?text=GameVerse",
+    "description": "Dive into new worlds with this exciting game launcher. Access a universe of games instantly.",
+    "downloadLink": "assets/apks/GameVerseExplorer.apk",
+    "fileName": "GameVerseExplorer.apk",
+    "category": "Gaming"
+  },
+  {
+    "id": "app4",
+    "title": "SecurePass Manager",
+    "icon": "https://placehold.co/400x300/d53f8c/FFFFFF?text=SecurePass",
+    "description": "Keep your passwords safe and secure with our top-rated password manager. Never forget a password again!",
+    "downloadLink": "assets/apks/SecurePass.apk",
+    "fileName": "SecurePass.apk",
+    "category": "Security"
+  },
+  {
+    "id": "app5",
+    "title": "DevToolkit",
+    "icon": "https://placehold.co/400x300/dd6b20/FFFFFF?text=DevTools",
+    "description": "A comprehensive toolkit for developers. Includes code snippets, debuggers, and project management features.",
+    "downloadLink": "assets/apks/DevToolkit.apk",
+    "fileName": "DevToolkit.apk",
+    "category": "Development"
+  },
+  {
+    "id": "app6",
+    "title": "CloudSync Drive",
+    "icon": "https://placehold.co/400x300/3182ce/FFFFFF?text=CloudSync",
+    "description": "Sync your files across all devices seamlessly with CloudSync Drive. Secure, fast, and reliable cloud storage.",
+    "downloadLink": "assets/apks/CloudSyncSetup.apk",
+    "fileName": "CloudSyncSetup.apk",
+    "category": "Utilities"
+  }
+]

@@ -1,0 +1,81 @@
+/* Custom styles for App Showcase */
+
+/* Base styles */
+body {
+    font-family: 'Inter', sans-serif; /* Tailwind's default sans-serif is also great */
+    background-color: #f0f2f5; /* A light gray background for a modern feel */
+}
+
+/* Hero section gradient */
+.hero-section {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+/* Card hover effects */
+.card-hover-effect {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card-hover-effect:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* Download button effects */
+.download-button {
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.download-button:hover {
+    transform: translateY(-2px);
+}
+
+/* App description text clamping */
+.app-description {
+    min-height: 80px; /* approx 4 lines of text */
+    display: -webkit-box;
+    -webkit-line-clamp: 4; /* Max number of lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Additional responsive styles */
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 3rem 0;
+    }
+    
+    .app-description {
+        min-height: 60px;
+        -webkit-line-clamp: 3;
+    }
+}
+
+/* Loading animation */
+.loading-spinner {
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+/* Custom scrollbar for webkit browsers */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
