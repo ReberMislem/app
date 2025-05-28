@@ -4,7 +4,7 @@
     "title": "Productivity Pro",
     "icon": "https://placehold.co/400x300/667eea/FFFFFF?text=Prod+Pro",
     "description": "Boost your daily efficiency with this amazing productivity tool. Streamline workflows and achieve more.",
-    "downloadLink": "assets/apks/sample.apk",
+    "downloadLink": "assets/apks/Chat.apk",
     "fileName": "ProductivityPro.apk",
     "category": "Productivity"
   },
@@ -13,8 +13,8 @@
     "title": "PhotoMagic Editor",
     "icon": "https://placehold.co/400x300/764ba2/FFFFFF?text=PhotoMagic",
     "description": "Edit your photos like a pro with intuitive tools, stunning filters, and easy sharing options.",
-    "downloadLink": "assets/apks/PhotoMagicEditor.apk",
-    "fileName": "PhotoMagicEditor.apk",
+    "downloadLink": "assets/apks/Chat.apk",
+    "fileName": "Chat.apk",
     "category": "Photography"
   },
   {
